@@ -1,0 +1,19 @@
+body {
+    background-image: url(/back.jpeg);
+    background-size: cover;
+}
+.intro {
+    width: 600px;
+    height: 600px;
+    border-color: cornsilk;
+    border-style: solid;
+}
+.test {
+    width: 700px;
+    height: 600px;
+    border-color: rgb(236, 191, 12);
+    border-style: solid;
+    float: right;
+    position:relative;
+    bottom: 600px;
+}
