@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovering over images using Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="parent" id="parent1" >
+            <p id="para"></p>
+            <img class="center_image" src="" alt="">
+            <h5>Hover over an image</h5>
+        </div>
+    
+        <div class="flex_img">
+            <div class="child" onmouseover="changeImage(this);" id="imgbox"><img class="img"  src="/ins_148200928_116397390401057_8408133395385562466_n.jpg" alt="Beautiful art"></div>
+            <div class="child" onmouseover="changeImage(this);" id="imgbox"><img class="img"  src="/ins_148241511_3742624529191541_5140312809995404414_n.jpg" alt="Some roads you need to take alone"></div>
+            <div class="child" onmouseover="changeImage(this);" id="imgbox"><img class="img" src="ins_148317651_430990218118256_4238518008100222999_n.jpg" alt="Loosen up"></div>
+        </div>
+       
+        
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
